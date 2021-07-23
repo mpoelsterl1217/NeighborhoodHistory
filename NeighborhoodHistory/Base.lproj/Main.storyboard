@@ -3,6 +3,7 @@
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Image references" minToolsVersion="12.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -18,7 +19,9 @@
                         <viewLayoutGuide key="safeArea" id="jCm-Ci-2jK"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="" id="crt-xj-P4O"/>
+                    <tabBarItem key="tabBarItem" title="" id="crt-xj-P4O">
+                        <imageReference key="image" image="camera.fill" catalog="system" symbolScale="large"/>
+                    </tabBarItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NuD-GN-Ycj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -34,7 +37,9 @@
                         <viewLayoutGuide key="safeArea" id="ymM-do-pF6"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="" image="map.fill" catalog="system" id="XaY-FD-jWV"/>
+                    <tabBarItem key="tabBarItem" title="" id="XaY-FD-jWV">
+                        <imageReference key="image" image="map.fill" catalog="system" symbolScale="large"/>
+                    </tabBarItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kei-w6-eZa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -61,7 +66,7 @@
             </objects>
             <point key="canvasLocation" x="-444" y="-115"/>
         </scene>
-        <!--Item-->
+        <!--View Controller-->
         <scene sceneID="XGJ-nE-vbc">
             <objects>
                 <viewController id="w7A-B4-qTF" sceneMemberID="viewController">
@@ -71,13 +76,15 @@
                         <viewLayoutGuide key="safeArea" id="G03-J8-Q1a"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="BOH-UT-9X5"/>
+                    <tabBarItem key="tabBarItem" title="" id="BOH-UT-9X5">
+                        <imageReference key="image" image="bookmark.fill" catalog="system" symbolScale="large"/>
+                    </tabBarItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2nf-2G-Mey" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="367" y="535"/>
         </scene>
-        <!--Item-->
+        <!--View Controller-->
         <scene sceneID="c6A-dx-a1m">
             <objects>
                 <viewController id="SSV-It-a2X" sceneMemberID="viewController">
@@ -87,13 +94,15 @@
                         <viewLayoutGuide key="safeArea" id="gKg-3e-34h"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="Iue-Te-5gj"/>
+                    <tabBarItem key="tabBarItem" title="" id="Iue-Te-5gj">
+                        <imageReference key="image" image="person.fill" catalog="system" symbolScale="large"/>
+                    </tabBarItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KUQ-DE-6o3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="367" y="1187"/>
         </scene>
-        <!--Item-->
+        <!--View Controller-->
         <scene sceneID="qGn-97-bWQ">
             <objects>
                 <viewController id="HUM-7O-spa" sceneMemberID="viewController">
@@ -103,7 +112,9 @@
                         <viewLayoutGuide key="safeArea" id="ivF-iG-Y3i"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="kNE-6R-Zyo"/>
+                    <tabBarItem key="tabBarItem" title="" id="kNE-6R-Zyo">
+                        <imageReference key="image" image="plus.circle.fill" catalog="system" symbolScale="large"/>
+                    </tabBarItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nrE-3j-ImG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -111,7 +122,11 @@
         </scene>
     </scenes>
     <resources>
+        <image name="bookmark.fill" catalog="system" width="112" height="128"/>
+        <image name="camera.fill" catalog="system" width="128" height="94"/>
         <image name="map.fill" catalog="system" width="128" height="110"/>
+        <image name="person.fill" catalog="system" width="128" height="120"/>
+        <image name="plus.circle.fill" catalog="system" width="128" height="121"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
