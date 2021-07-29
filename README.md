@@ -1,5 +1,11 @@
 # NeighborhoodHistory
-## Contributors
-@kemei-8
-@mpoelsterl1217
-@yvette1730
+## About
+
+## In Progress
+- [ ] Navigation
+- [ ] Map View
+- [ ] List View
+- [ ] AR View
+## Goals
+- Collections
+- Login with Apple
