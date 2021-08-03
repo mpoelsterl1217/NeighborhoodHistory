@@ -17,6 +17,8 @@
 		C2A674A726AB334B00537546 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2A674A526AB334B00537546 /* LaunchScreen.storyboard */; };
 		C2A674B226AB334B00537546 /* NeighborhoodHistoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2A674B126AB334B00537546 /* NeighborhoodHistoryTests.swift */; };
 		C2A674BD26AB334B00537546 /* NeighborhoodHistoryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2A674BC26AB334B00537546 /* NeighborhoodHistoryUITests.swift */; };
+		C2E1996026B9986700849D5F /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E1995F26B9986700849D5F /* MapViewController.swift */; };
+		C2E1996226B9A35500849D5F /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E1996126B9A35500849D5F /* Location.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		C2A674B826AB334B00537546 /* NeighborhoodHistoryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NeighborhoodHistoryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2A674BC26AB334B00537546 /* NeighborhoodHistoryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeighborhoodHistoryUITests.swift; sourceTree = "<group>"; };
 		C2A674BE26AB334B00537546 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2E1995F26B9986700849D5F /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		C2E1996126B9A35500849D5F /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +111,8 @@
 				C2A6749C26AB334900537546 /* SceneDelegate.swift */,
 				C2A6749E26AB334900537546 /* ViewController.swift */,
 				C2A674A026AB334900537546 /* Main.storyboard */,
+				C2E1996126B9A35500849D5F /* Location.swift */,
+				C2E1995F26B9986700849D5F /* MapViewController.swift */,
 				21198CA126B4D975000DE766 /* CollectionsViewController.swift */,
 				C2861D9B26B0525700A31ACD /* Model.xcdatamodeld */,
 				C2A674A326AB334B00537546 /* Assets.xcassets */,
@@ -265,10 +271,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				C2A6749F26AB334900537546 /* ViewController.swift in Sources */,
+				C2E1996026B9986700849D5F /* MapViewController.swift in Sources */,
 				C2A6749B26AB334900537546 /* AppDelegate.swift in Sources */,
 				21198CA226B4D975000DE766 /* CollectionsViewController.swift in Sources */,
 				C2A6749D26AB334900537546 /* SceneDelegate.swift in Sources */,
 				C2861D9D26B0525700A31ACD /* Model.xcdatamodeld in Sources */,
+				C2E1996226B9A35500849D5F /* Location.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -108,10 +108,10 @@
             </objects>
             <point key="canvasLocation" x="1186.9565217391305" y="-763.39285714285711"/>
         </scene>
-        <!--View Controller-->
+        <!--Map View Controller-->
         <scene sceneID="AYt-Tg-G3D">
             <objects>
-                <viewController id="LDf-GP-RcQ" sceneMemberID="viewController">
+                <viewController id="LDf-GP-RcQ" customClass="MapViewController" customModule="NeighborhoodHistory" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="VPE-pB-fqw">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -127,6 +127,9 @@
                     <tabBarItem key="tabBarItem" title="" id="XaY-FD-jWV">
                         <imageReference key="image" image="map.fill" catalog="system" symbolScale="large"/>
                     </tabBarItem>
+                    <connections>
+                        <outlet property="mapView" destination="Qfk-Ju-e15" id="yf8-VB-Rte"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kei-w6-eZa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
