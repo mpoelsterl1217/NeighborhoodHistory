@@ -19,6 +19,7 @@
 		C2A674BD26AB334B00537546 /* NeighborhoodHistoryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2A674BC26AB334B00537546 /* NeighborhoodHistoryUITests.swift */; };
 		C2E1996026B9986700849D5F /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E1995F26B9986700849D5F /* MapViewController.swift */; };
 		C2E1996226B9A35500849D5F /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E1996126B9A35500849D5F /* Location.swift */; };
+		C2E1996426B9B3A300849D5F /* ExpandedCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E1996326B9B3A300849D5F /* ExpandedCardViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		C2A674BE26AB334B00537546 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C2E1995F26B9986700849D5F /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		C2E1996126B9A35500849D5F /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		C2E1996326B9B3A300849D5F /* ExpandedCardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandedCardViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +113,7 @@
 				C2A6749C26AB334900537546 /* SceneDelegate.swift */,
 				C2A6749E26AB334900537546 /* ViewController.swift */,
 				C2A674A026AB334900537546 /* Main.storyboard */,
+				C2E1996326B9B3A300849D5F /* ExpandedCardViewController.swift */,
 				C2E1996126B9A35500849D5F /* Location.swift */,
 				C2E1995F26B9986700849D5F /* MapViewController.swift */,
 				21198CA126B4D975000DE766 /* CollectionsViewController.swift */,
@@ -272,6 +275,7 @@
 			files = (
 				C2A6749F26AB334900537546 /* ViewController.swift in Sources */,
 				C2E1996026B9986700849D5F /* MapViewController.swift in Sources */,
+				C2E1996426B9B3A300849D5F /* ExpandedCardViewController.swift in Sources */,
 				C2A6749B26AB334900537546 /* AppDelegate.swift in Sources */,
 				21198CA226B4D975000DE766 /* CollectionsViewController.swift in Sources */,
 				C2A6749D26AB334900537546 /* SceneDelegate.swift in Sources */,

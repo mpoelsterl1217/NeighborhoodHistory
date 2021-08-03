@@ -50,28 +50,41 @@ private extension MKMapView {
     }
 }
 extension MapViewController: MKMapViewDelegate {
-  // 1
-  func mapView(_ mapView: MKMapView, viewFor annotation: MKAnnotation) -> MKAnnotationView? {
-    // 2
-    guard let annotation = annotation as? Location else {
-      return nil
+    //Creates custom card for click on marker
+    func mapView(_ mapView: MKMapView, viewFor annotation: MKAnnotation) -> MKAnnotationView? {
+        guard let annotation = annotation as? Location else {
+            return nil
+        }
+        let identifier = "location"
+        var view: MKMarkerAnnotationView
+        if let dequeuedView = mapView.dequeueReusableAnnotationView(withIdentifier: identifier) as? MKMarkerAnnotationView {
+            dequeuedView.annotation = annotation
+            view = dequeuedView
+            
+        } else {
+            view = MKMarkerAnnotationView(annotation: annotation, reuseIdentifier: identifier)
+            view.canShowCallout = true
+            view.calloutOffset = CGPoint(x: -5, y: 5)
+            view.rightCalloutAccessoryView = UIButton(type: .detailDisclosure)
+            view.markerTintColor = annotation.markerTintColor
+        }
+        return view
     }
-    // 3
-    let identifier = "location"
-    var view: MKMarkerAnnotationView
-    // 4
-    if let dequeuedView = mapView.dequeueReusableAnnotationView(withIdentifier: identifier) as? MKMarkerAnnotationView {
-      dequeuedView.annotation = annotation
-      view = dequeuedView
-    } else {
-      // 5
-      view = MKMarkerAnnotationView(annotation: annotation, reuseIdentifier: identifier)
-      view.canShowCallout = true
-      view.calloutOffset = CGPoint(x: -5, y: 5)
-      view.rightCalloutAccessoryView = UIButton(type: .detailDisclosure)
+    
+    func mapView(_ mapView: MKMapView, annotationView view: MKAnnotationView, calloutAccessoryControlTapped control: UIControl) {
+        guard let location = view.annotation as? Location else {
+            return
+        }
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let expandedVC = storyboard.instantiateViewController(identifier: "ExpandedCardViewController")
+               
+        expandedVC.modalPresentationStyle = .pageSheet
+        expandedVC.modalTransitionStyle = .crossDissolve
+               
+        present(expandedVC, animated: true, completion: nil)
+        
     }
-    return view
-  }
+    
 }
 
 

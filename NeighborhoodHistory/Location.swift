@@ -33,5 +33,8 @@ class Location: NSObject, MKAnnotation {
     var subtitle: String? {
         return caption
     }
+    var markerTintColor: UIColor {
+        return .orange
+    }
     
 }
