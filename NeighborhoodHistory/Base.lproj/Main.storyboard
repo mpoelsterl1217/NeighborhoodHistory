@@ -376,18 +376,17 @@
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleAspectFit" axis="vertical" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="19p-Ay-Zvd">
                                 <rect key="frame" x="17" y="59" width="380" height="550"/>
-                                <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="NeighborhoodHis" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="69c-U4-vmo">
-                                        <rect key="frame" x="0.0" y="0.0" width="380" height="48"/>
-                                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="40"/>
-                                        <color key="textColor" red="0.4506805539" green="0.68077969549999995" blue="0.74118822809999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="7qu-26-Bzv">
-                                        <rect key="frame" x="0.0" y="78" width="380" height="472"/>
-                                    </imageView>
-                                </subviews>
                             </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hedge" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="69c-U4-vmo">
+                                <rect key="frame" x="14" y="107" width="380" height="48"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="40"/>
+                                <color key="textColor" red="0.4506805539" green="0.68077969549999995" blue="0.74118822809999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" fixedFrame="YES" image="Hedgehog Screen" translatesAutoresizingMaskIntoConstraints="NO" id="7qu-26-Bzv">
+                                <rect key="frame" x="17" y="107" width="380" height="550"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="DXc-XC-J2X"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -396,7 +395,10 @@
                             <constraint firstItem="3wB-wl-PTt" firstAttribute="centerX" secondItem="7ZP-wN-ljf" secondAttribute="centerX" id="79G-T7-ICG"/>
                             <constraint firstItem="DXc-XC-J2X" firstAttribute="bottom" secondItem="3wB-wl-PTt" secondAttribute="bottom" constant="29" id="JUF-Ez-d9e"/>
                             <constraint firstItem="19p-Ay-Zvd" firstAttribute="leading" secondItem="DXc-XC-J2X" secondAttribute="leading" constant="17" id="QgZ-mE-9gG"/>
+                            <constraint firstItem="69c-U4-vmo" firstAttribute="top" secondItem="DXc-XC-J2X" secondAttribute="top" constant="63" id="RHg-wQ-gMp"/>
+                            <constraint firstItem="69c-U4-vmo" firstAttribute="leading" secondItem="DXc-XC-J2X" secondAttribute="leading" constant="14" id="XB9-Bq-BVN"/>
                             <constraint firstItem="19p-Ay-Zvd" firstAttribute="top" secondItem="DXc-XC-J2X" secondAttribute="top" constant="15" id="YIH-jg-UMz"/>
+                            <constraint firstItem="69c-U4-vmo" firstAttribute="trailing" secondItem="7ZP-wN-ljf" secondAttribute="trailingMargin" id="oGd-4p-1jh"/>
                             <constraint firstItem="3wB-wl-PTt" firstAttribute="centerX" secondItem="19p-Ay-Zvd" secondAttribute="centerX" id="wKC-1W-dBj"/>
                         </constraints>
                     </view>
@@ -568,7 +570,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KUQ-DE-6o3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="367" y="1187"/>
+            <point key="canvasLocation" x="366.66666666666669" y="1186.6071428571429"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="qGn-97-bWQ">
@@ -750,6 +752,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="Hedgehog Screen" width="776" height="761"/>
         <image name="bookmark.fill" catalog="system" width="112" height="128"/>
         <image name="camera.fill" catalog="system" width="128" height="94"/>
         <image name="line.horizontal.3" catalog="system" width="128" height="64"/>
