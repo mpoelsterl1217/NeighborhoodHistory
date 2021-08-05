@@ -8,16 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		21198CA226B4D975000DE766 /* CollectionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21198CA126B4D975000DE766 /* CollectionsViewController.swift */; };
-<<<<<<< Updated upstream
 		218806EC26BB9CBD0058B0AC /* UploadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218806EB26BB9CBD0058B0AC /* UploadViewController.swift */; };
 		218806F026BC3C260058B0AC /* UploadCell1TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218806EF26BC3C260058B0AC /* UploadCell1TableViewCell.swift */; };
 		218806F226BC40EB0058B0AC /* UploadCell2TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218806F126BC40EB0058B0AC /* UploadCell2TableViewCell.swift */; };
 		218806F526BC419F0058B0AC /* UploadCell3TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218806F426BC419F0058B0AC /* UploadCell3TableViewCell.swift */; };
 		218806F726BC42200058B0AC /* UploadCell4TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218806F626BC42200058B0AC /* UploadCell4TableViewCell.swift */; };
 		C2861D9D26B0525700A31ACD /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C2861D9B26B0525700A31ACD /* Model.xcdatamodeld */; };
-=======
-		C29689D626BC584000E92198 /* ARViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C29689D526BC584000E92198 /* ARViewController.swift */; };
->>>>>>> Stashed changes
 		C2A6749B26AB334900537546 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2A6749A26AB334900537546 /* AppDelegate.swift */; };
 		C2A6749D26AB334900537546 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2A6749C26AB334900537546 /* SceneDelegate.swift */; };
 		C2A6749F26AB334900537546 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2A6749E26AB334900537546 /* ViewController.swift */; };
@@ -50,16 +46,12 @@
 
 /* Begin PBXFileReference section */
 		21198CA126B4D975000DE766 /* CollectionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionsViewController.swift; sourceTree = "<group>"; };
-<<<<<<< Updated upstream
 		218806EB26BB9CBD0058B0AC /* UploadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadViewController.swift; sourceTree = "<group>"; };
 		218806EF26BC3C260058B0AC /* UploadCell1TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadCell1TableViewCell.swift; sourceTree = "<group>"; };
 		218806F126BC40EB0058B0AC /* UploadCell2TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadCell2TableViewCell.swift; sourceTree = "<group>"; };
 		218806F426BC419F0058B0AC /* UploadCell3TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadCell3TableViewCell.swift; sourceTree = "<group>"; };
 		218806F626BC42200058B0AC /* UploadCell4TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadCell4TableViewCell.swift; sourceTree = "<group>"; };
 		C2861D9C26B0525700A31ACD /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
-=======
-		C29689D526BC584000E92198 /* ARViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewController.swift; sourceTree = "<group>"; };
->>>>>>> Stashed changes
 		C2A6749726AB334900537546 /* NeighborhoodHistory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NeighborhoodHistory.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2A6749A26AB334900537546 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C2A6749C26AB334900537546 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -156,13 +148,7 @@
 				218806F326BC40F60058B0AC /* ViewControllers */,
 				C2A674A026AB334900537546 /* Main.storyboard */,
 				C2E1996126B9A35500849D5F /* Location.swift */,
-<<<<<<< Updated upstream
 				C2861D9B26B0525700A31ACD /* Model.xcdatamodeld */,
-=======
-				C2E1995F26B9986700849D5F /* MapViewController.swift */,
-				C29689D526BC584000E92198 /* ARViewController.swift */,
-				21198CA126B4D975000DE766 /* CollectionsViewController.swift */,
->>>>>>> Stashed changes
 				C2A674A326AB334B00537546 /* Assets.xcassets */,
 				C2A674A526AB334B00537546 /* LaunchScreen.storyboard */,
 				C2A674A826AB334B00537546 /* Info.plist */,
@@ -321,7 +307,6 @@
 				C2A6749F26AB334900537546 /* ViewController.swift in Sources */,
 				C2E1996026B9986700849D5F /* MapViewController.swift in Sources */,
 				C2E1996426B9B3A300849D5F /* ExpandedCardViewController.swift in Sources */,
-				C29689D626BC584000E92198 /* ARViewController.swift in Sources */,
 				C2A6749B26AB334900537546 /* AppDelegate.swift in Sources */,
 				218806F026BC3C260058B0AC /* UploadCell1TableViewCell.swift in Sources */,
 				218806EC26BB9CBD0058B0AC /* UploadViewController.swift in Sources */,
@@ -329,11 +314,8 @@
 				218806F226BC40EB0058B0AC /* UploadCell2TableViewCell.swift in Sources */,
 				218806F526BC419F0058B0AC /* UploadCell3TableViewCell.swift in Sources */,
 				C2A6749D26AB334900537546 /* SceneDelegate.swift in Sources */,
-<<<<<<< Updated upstream
 				218806F726BC42200058B0AC /* UploadCell4TableViewCell.swift in Sources */,
 				C2861D9D26B0525700A31ACD /* Model.xcdatamodeld in Sources */,
-=======
->>>>>>> Stashed changes
 				C2E1996226B9A35500849D5F /* Location.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -667,6 +649,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C2861D9B26B0525700A31ACD /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C2861D9C26B0525700A31ACD /* Model.xcdatamodel */,
+			);
+			currentVersion = C2861D9C26B0525700A31ACD /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = C2A6748F26AB334900537546 /* Project object */;
 }
