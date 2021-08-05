@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		21198CA226B4D975000DE766 /* CollectionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21198CA126B4D975000DE766 /* CollectionsViewController.swift */; };
+		218806EC26BB9CBD0058B0AC /* UploadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218806EB26BB9CBD0058B0AC /* UploadViewController.swift */; };
+		218806F026BC3C260058B0AC /* UploadCell1TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218806EF26BC3C260058B0AC /* UploadCell1TableViewCell.swift */; };
+		218806F226BC40EB0058B0AC /* UploadCell2TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218806F126BC40EB0058B0AC /* UploadCell2TableViewCell.swift */; };
+		218806F526BC419F0058B0AC /* UploadCell3TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218806F426BC419F0058B0AC /* UploadCell3TableViewCell.swift */; };
+		218806F726BC42200058B0AC /* UploadCell4TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218806F626BC42200058B0AC /* UploadCell4TableViewCell.swift */; };
 		C2861D9D26B0525700A31ACD /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C2861D9B26B0525700A31ACD /* Model.xcdatamodeld */; };
 		C2A6749B26AB334900537546 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2A6749A26AB334900537546 /* AppDelegate.swift */; };
 		C2A6749D26AB334900537546 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2A6749C26AB334900537546 /* SceneDelegate.swift */; };
@@ -41,6 +46,11 @@
 
 /* Begin PBXFileReference section */
 		21198CA126B4D975000DE766 /* CollectionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionsViewController.swift; sourceTree = "<group>"; };
+		218806EB26BB9CBD0058B0AC /* UploadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadViewController.swift; sourceTree = "<group>"; };
+		218806EF26BC3C260058B0AC /* UploadCell1TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadCell1TableViewCell.swift; sourceTree = "<group>"; };
+		218806F126BC40EB0058B0AC /* UploadCell2TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadCell2TableViewCell.swift; sourceTree = "<group>"; };
+		218806F426BC419F0058B0AC /* UploadCell3TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadCell3TableViewCell.swift; sourceTree = "<group>"; };
+		218806F626BC42200058B0AC /* UploadCell4TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadCell4TableViewCell.swift; sourceTree = "<group>"; };
 		C2861D9C26B0525700A31ACD /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 		C2A6749726AB334900537546 /* NeighborhoodHistory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NeighborhoodHistory.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2A6749A26AB334900537546 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -86,6 +96,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		218806F326BC40F60058B0AC /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				21198CA126B4D975000DE766 /* CollectionsViewController.swift */,
+				218806EB26BB9CBD0058B0AC /* UploadViewController.swift */,
+				C2E1995F26B9986700849D5F /* MapViewController.swift */,
+				C2E1996326B9B3A300849D5F /* ExpandedCardViewController.swift */,
+				218806F826BC4B7C0058B0AC /* TableViewCell */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		218806F826BC4B7C0058B0AC /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				218806EF26BC3C260058B0AC /* UploadCell1TableViewCell.swift */,
+				218806F426BC419F0058B0AC /* UploadCell3TableViewCell.swift */,
+				218806F626BC42200058B0AC /* UploadCell4TableViewCell.swift */,
+				218806F126BC40EB0058B0AC /* UploadCell2TableViewCell.swift */,
+			);
+			path = TableViewCell;
+			sourceTree = "<group>";
+		};
 		C2A6748E26AB334900537546 = {
 			isa = PBXGroup;
 			children = (
@@ -112,11 +145,9 @@
 				C2A6749A26AB334900537546 /* AppDelegate.swift */,
 				C2A6749C26AB334900537546 /* SceneDelegate.swift */,
 				C2A6749E26AB334900537546 /* ViewController.swift */,
+				218806F326BC40F60058B0AC /* ViewControllers */,
 				C2A674A026AB334900537546 /* Main.storyboard */,
-				C2E1996326B9B3A300849D5F /* ExpandedCardViewController.swift */,
 				C2E1996126B9A35500849D5F /* Location.swift */,
-				C2E1995F26B9986700849D5F /* MapViewController.swift */,
-				21198CA126B4D975000DE766 /* CollectionsViewController.swift */,
 				C2861D9B26B0525700A31ACD /* Model.xcdatamodeld */,
 				C2A674A326AB334B00537546 /* Assets.xcassets */,
 				C2A674A526AB334B00537546 /* LaunchScreen.storyboard */,
@@ -277,8 +308,13 @@
 				C2E1996026B9986700849D5F /* MapViewController.swift in Sources */,
 				C2E1996426B9B3A300849D5F /* ExpandedCardViewController.swift in Sources */,
 				C2A6749B26AB334900537546 /* AppDelegate.swift in Sources */,
+				218806F026BC3C260058B0AC /* UploadCell1TableViewCell.swift in Sources */,
+				218806EC26BB9CBD0058B0AC /* UploadViewController.swift in Sources */,
 				21198CA226B4D975000DE766 /* CollectionsViewController.swift in Sources */,
+				218806F226BC40EB0058B0AC /* UploadCell2TableViewCell.swift in Sources */,
+				218806F526BC419F0058B0AC /* UploadCell3TableViewCell.swift in Sources */,
 				C2A6749D26AB334900537546 /* SceneDelegate.swift in Sources */,
+				218806F726BC42200058B0AC /* UploadCell4TableViewCell.swift in Sources */,
 				C2861D9D26B0525700A31ACD /* Model.xcdatamodeld in Sources */,
 				C2E1996226B9A35500849D5F /* Location.swift in Sources */,
 			);
