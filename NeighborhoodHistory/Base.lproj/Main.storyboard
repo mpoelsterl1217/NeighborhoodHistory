@@ -14,7 +14,7 @@
         <!--View Controller-->
         <scene sceneID="p1d-TM-mxU">
             <objects>
-                <viewController id="iT2-bJ-htv" sceneMemberID="viewController">
+                <viewController id="iT2-bJ-htv" customClass="ARViewController" customModule="NeighborhoodHistory" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="NgA-qq-VHm">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -30,6 +30,9 @@
                     <tabBarItem key="tabBarItem" title="" id="crt-xj-P4O">
                         <imageReference key="image" image="camera.fill" catalog="system" symbolScale="large"/>
                     </tabBarItem>
+                    <connections>
+                        <outlet property="arView" destination="GjH-rE-YaV" id="3Wh-bP-0q3"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NuD-GN-Ycj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
