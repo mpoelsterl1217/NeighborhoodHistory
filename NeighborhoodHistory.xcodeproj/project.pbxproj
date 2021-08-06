@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		21198CA226B4D975000DE766 /* CollectionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21198CA126B4D975000DE766 /* CollectionsViewController.swift */; };
+		21B85E3526BD10ED001007DB /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21B85E3426BD10ED001007DB /* TableViewController.swift */; };
 		C2861D9D26B0525700A31ACD /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C2861D9B26B0525700A31ACD /* Model.xcdatamodeld */; };
 		C29689D826BC5A7300E92198 /* ARViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C29689D726BC5A7300E92198 /* ARViewController.swift */; };
 		C2A6749B26AB334900537546 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2A6749A26AB334900537546 /* AppDelegate.swift */; };
@@ -41,7 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		21198CA126B4D975000DE766 /* CollectionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionsViewController.swift; sourceTree = "<group>"; };
+		21B85E3426BD10ED001007DB /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TableViewController.swift; path = NeighborhoodHistory/TableViewController.swift; sourceTree = SOURCE_ROOT; };
 		C2861D9C26B0525700A31ACD /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 		C29689D726BC5A7300E92198 /* ARViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewController.swift; sourceTree = "<group>"; };
 		C2A6749726AB334900537546 /* NeighborhoodHistory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NeighborhoodHistory.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -91,12 +91,19 @@
 		218806F326BC40F60058B0AC /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				21198CA126B4D975000DE766 /* CollectionsViewController.swift */,
+				21B85E3426BD10ED001007DB /* TableViewController.swift */,
 				C2E1995F26B9986700849D5F /* MapViewController.swift */,
 				C2E1996326B9B3A300849D5F /* ExpandedCardViewController.swift */,
 				C29689D726BC5A7300E92198 /* ARViewController.swift */,
 			);
 			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		21B85E3126BD0EC0001007DB /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TableView;
 			sourceTree = "<group>";
 		};
 		C2A6748E26AB334900537546 = {
@@ -128,6 +135,7 @@
 				218806F326BC40F60058B0AC /* ViewControllers */,
 				C2A674A026AB334900537546 /* Main.storyboard */,
 				C2E1996126B9A35500849D5F /* Location.swift */,
+				21B85E3126BD0EC0001007DB /* TableView */,
 				C2861D9B26B0525700A31ACD /* Model.xcdatamodeld */,
 				C2A674A326AB334B00537546 /* Assets.xcassets */,
 				C2A674A526AB334B00537546 /* LaunchScreen.storyboard */,
@@ -288,10 +296,10 @@
 				C2E1996026B9986700849D5F /* MapViewController.swift in Sources */,
 				C2E1996426B9B3A300849D5F /* ExpandedCardViewController.swift in Sources */,
 				C2A6749B26AB334900537546 /* AppDelegate.swift in Sources */,
-				21198CA226B4D975000DE766 /* CollectionsViewController.swift in Sources */,
 				C29689D826BC5A7300E92198 /* ARViewController.swift in Sources */,
 				C2A6749D26AB334900537546 /* SceneDelegate.swift in Sources */,
 				C2861D9D26B0525700A31ACD /* Model.xcdatamodeld in Sources */,
+				21B85E3526BD10ED001007DB /* TableViewController.swift in Sources */,
 				C2E1996226B9A35500849D5F /* Location.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
