@@ -14,13 +14,17 @@ class UploadViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        // label reflects user actions
         displayLbl.text = " "
 
     }
 
     @IBAction func uploadPressed(_ sender: UIButton) {
-        let alertView = UIAlertController(title: nil, message: "how would you like to upload?", preferredStyle: .actionSheet)
         
+        // creating popup alert view with 3 options
+        let alertView = UIAlertController(title: nil, message: "How would you like to upload?", preferredStyle: .actionSheet)
+        
+        // pressing cancel will collapse the alertView
         let cancel = UIAlertAction(title: "Cancel", style: .destructive) { (action) in self.displayLbl.text = "Upload Canceled"
         }
         
@@ -30,6 +34,7 @@ class UploadViewController: UIViewController {
         let camera = UIAlertAction(title: "Camera", style: .default) { (action) in self.displayLbl.text = "Upload Successful!"
         }
     
+        // adding each option to the alertView
         alertView.addAction(cancel)
         alertView.addAction(photo)
         alertView.addAction(camera)
