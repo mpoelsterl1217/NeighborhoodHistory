@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		21B85E3526BD10ED001007DB /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21B85E3426BD10ED001007DB /* TableViewController.swift */; };
+		21CF27CB26BF94290076FEA7 /* DateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21CF27CA26BF94290076FEA7 /* DateViewController.swift */; };
 		C2861D9D26B0525700A31ACD /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C2861D9B26B0525700A31ACD /* Model.xcdatamodeld */; };
 		C29689D826BC5A7300E92198 /* ARViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C29689D726BC5A7300E92198 /* ARViewController.swift */; };
 		C2A6749B26AB334900537546 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2A6749A26AB334900537546 /* AppDelegate.swift */; };
@@ -42,6 +43,7 @@
 
 /* Begin PBXFileReference section */
 		21B85E3426BD10ED001007DB /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TableViewController.swift; path = NeighborhoodHistory/TableViewController.swift; sourceTree = SOURCE_ROOT; };
+		21CF27CA26BF94290076FEA7 /* DateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DateViewController.swift; path = NeighborhoodHistory/DateViewController.swift; sourceTree = SOURCE_ROOT; };
 		C2861D9C26B0525700A31ACD /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 		C29689D726BC5A7300E92198 /* ARViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewController.swift; sourceTree = "<group>"; };
 		C2A6749726AB334900537546 /* NeighborhoodHistory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NeighborhoodHistory.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -91,6 +93,7 @@
 		218806F326BC40F60058B0AC /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				21CF27CA26BF94290076FEA7 /* DateViewController.swift */,
 				21B85E3426BD10ED001007DB /* TableViewController.swift */,
 				C2E1995F26B9986700849D5F /* MapViewController.swift */,
 				C2E1996326B9B3A300849D5F /* ExpandedCardViewController.swift */,
@@ -292,6 +295,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21CF27CB26BF94290076FEA7 /* DateViewController.swift in Sources */,
 				C2A6749F26AB334900537546 /* ViewController.swift in Sources */,
 				C2E1996026B9986700849D5F /* MapViewController.swift in Sources */,
 				C2E1996426B9B3A300849D5F /* ExpandedCardViewController.swift in Sources */,
