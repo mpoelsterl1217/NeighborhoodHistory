@@ -8,10 +8,11 @@
 import Foundation
 import MapKit
 
-class Location: NSObject, MKAnnotation {
+class Location: NSObject, MKAnnotation, Codable {
     let name: String
     let address: String?
-    let coordinate: CLLocationCoordinate2D
+    let latitude: Double
+    let longitude: Double
     let caption: String?
     let descript: String?
     let tags: [String]?
@@ -19,7 +20,8 @@ class Location: NSObject, MKAnnotation {
     init(name: String, address: String?, coordinate: CLLocationCoordinate2D, caption: String?, descript: String?, tags: [String]?) {
         self.name = name
         self.address = address
-        self.coordinate = coordinate
+        self.latitude = coordinate.latitude
+        self.longitude = coordinate.longitude
         self.caption = caption
         self.descript = descript
         self.tags = tags
@@ -27,6 +29,9 @@ class Location: NSObject, MKAnnotation {
         super.init()
     }
     
+    var coordinate: CLLocationCoordinate2D {
+        return CLLocationCoordinate2D(latitude: self.latitude, longitude: self.longitude)
+    }
     var title: String? {
         return name
     }
