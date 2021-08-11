@@ -15,16 +15,14 @@ class Location: NSObject, MKAnnotation, Codable {
     let longitude: Double
     let caption: String?
     let descript: String?
-    let tags: [String]?
     
-    init(name: String, address: String?, coordinate: CLLocationCoordinate2D, caption: String?, descript: String?, tags: [String]?) {
+    init(name: String, address: String?, coordinate: CLLocationCoordinate2D, caption: String?, descript: String?) {
         self.name = name
         self.address = address
         self.latitude = coordinate.latitude
         self.longitude = coordinate.longitude
         self.caption = caption
         self.descript = descript
-        self.tags = tags
         
         super.init()
     }

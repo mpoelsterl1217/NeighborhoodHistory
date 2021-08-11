@@ -46,20 +46,26 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ron-cf-1fe">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Wartortle" translatesAutoresizingMaskIntoConstraints="NO" id="ron-cf-1fe">
                                 <rect key="frame" x="20" y="71" width="374" height="221"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="221" id="0CV-4M-Scr"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lincoln Monument" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rDf-Wc-xKI">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Wartortle Mural" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rDf-Wc-xKI">
                                 <rect key="frame" x="20" y="317" width="374" height="37"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Description" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XT3-hm-mgN">
-                                <rect key="frame" x="20" y="385" width="87.5" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1915 W 33rd St" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pu2-Za-lsK">
+                                <rect key="frame" x="20" y="362" width="87" height="15"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="A mural of a Wartortle, Pokemon #008, in Chicago's McKinley Park neighborhood" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XT3-hm-mgN">
+                                <rect key="frame" x="20" y="385" width="374" height="41"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -71,17 +77,26 @@
                             <constraint firstItem="rDf-Wc-xKI" firstAttribute="centerX" secondItem="MUR-ie-2RW" secondAttribute="centerX" id="0OW-H1-y5g"/>
                             <constraint firstItem="ron-cf-1fe" firstAttribute="leading" secondItem="MUR-ie-2RW" secondAttribute="leadingMargin" id="3hR-Lh-xIa"/>
                             <constraint firstItem="ron-cf-1fe" firstAttribute="leading" secondItem="rDf-Wc-xKI" secondAttribute="leading" id="7S9-bi-pF3"/>
+                            <constraint firstItem="XT3-hm-mgN" firstAttribute="top" secondItem="pu2-Za-lsK" secondAttribute="bottom" constant="8" symbolic="YES" id="8bP-Yp-v9d"/>
                             <constraint firstItem="ron-cf-1fe" firstAttribute="top" secondItem="Jd0-j6-02S" secondAttribute="top" constant="27" id="DjD-hb-GSE"/>
-                            <constraint firstItem="XT3-hm-mgN" firstAttribute="top" secondItem="rDf-Wc-xKI" secondAttribute="bottom" constant="31" id="LBX-t2-Z6m"/>
+                            <constraint firstItem="pu2-Za-lsK" firstAttribute="leading" secondItem="Jd0-j6-02S" secondAttribute="leading" constant="20" id="NFy-Gb-LWh"/>
                             <constraint firstItem="rDf-Wc-xKI" firstAttribute="top" secondItem="ron-cf-1fe" secondAttribute="bottom" constant="25" id="dMy-My-qOl"/>
                             <constraint firstItem="ron-cf-1fe" firstAttribute="centerX" secondItem="MUR-ie-2RW" secondAttribute="centerX" id="dzR-67-FWu"/>
+                            <constraint firstItem="pu2-Za-lsK" firstAttribute="top" secondItem="rDf-Wc-xKI" secondAttribute="bottom" constant="8" symbolic="YES" id="sm8-Il-l6d"/>
                             <constraint firstItem="ron-cf-1fe" firstAttribute="leading" secondItem="XT3-hm-mgN" secondAttribute="leading" id="v4R-FQ-uCE"/>
+                            <constraint firstItem="XT3-hm-mgN" firstAttribute="leading" secondItem="Jd0-j6-02S" secondAttribute="leading" constant="20" id="vOV-uE-cvJ"/>
+                            <constraint firstAttribute="trailing" secondItem="XT3-hm-mgN" secondAttribute="trailing" constant="20" id="wk2-mO-wo7"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="addressLabel" destination="pu2-Za-lsK" id="UCd-zu-42O"/>
+                        <outlet property="descriptionLabel" destination="XT3-hm-mgN" id="5ip-Kl-l2g"/>
+                        <outlet property="nameLabel" destination="rDf-Wc-xKI" id="Df1-al-gR1"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gxx-id-fg1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-686.95652173913049" y="-1414.2857142857142"/>
+            <point key="canvasLocation" x="-559.4202898550725" y="-1414.2857142857142"/>
         </scene>
         <!--Map View Controller-->
         <scene sceneID="AYt-Tg-G3D">
@@ -933,6 +948,7 @@
     </scenes>
     <resources>
         <image name="Hedgehog Screen" width="776" height="761"/>
+        <image name="Wartortle" width="4032" height="3024"/>
         <image name="bookmark.fill" catalog="system" width="112" height="128"/>
         <image name="camera.fill" catalog="system" width="128" height="94"/>
         <image name="chevron.right" catalog="system" width="96" height="128"/>
