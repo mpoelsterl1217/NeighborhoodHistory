@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>NSCameraUsageDescription</key>
-	<string>Augmented Reality experience requires camera access</string>
+	<string>AR requires camera access</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
-	<string>Location access is required to find points of interest near you</string>
+	<string>To access your location in app to center map and show local points of interest</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleExecutable</key>
