@@ -7,14 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		21198CA226B4D975000DE766 /* CollectionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21198CA126B4D975000DE766 /* CollectionsViewController.swift */; };
-		218806EC26BB9CBD0058B0AC /* UploadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218806EB26BB9CBD0058B0AC /* UploadViewController.swift */; };
-		218806F026BC3C260058B0AC /* UploadCell1TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218806EF26BC3C260058B0AC /* UploadCell1TableViewCell.swift */; };
-		218806F226BC40EB0058B0AC /* UploadCell2TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218806F126BC40EB0058B0AC /* UploadCell2TableViewCell.swift */; };
-		218806F526BC419F0058B0AC /* UploadCell3TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218806F426BC419F0058B0AC /* UploadCell3TableViewCell.swift */; };
-		218806F726BC42200058B0AC /* UploadCell4TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218806F626BC42200058B0AC /* UploadCell4TableViewCell.swift */; };
-		C285211326C458340038F97E /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C285211226C458340038F97E /* TabBarController.swift */; };
-		C285211526C4773C0038F97E /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = C285211426C4773C0038F97E /* CoreDataStack.swift */; };
+		21B85E3526BD10ED001007DB /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21B85E3426BD10ED001007DB /* TableViewController.swift */; };
+		21CF27CB26BF94290076FEA7 /* DateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21CF27CA26BF94290076FEA7 /* DateViewController.swift */; };
+		21CF27CD26BFCEE80076FEA7 /* UploadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21CF27CC26BFCEE70076FEA7 /* UploadViewController.swift */; };
 		C2861D9D26B0525700A31ACD /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C2861D9B26B0525700A31ACD /* Model.xcdatamodeld */; };
 		C29689D826BC5A7300E92198 /* ARViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C29689D726BC5A7300E92198 /* ARViewController.swift */; };
 		C2A6749B26AB334900537546 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2A6749A26AB334900537546 /* AppDelegate.swift */; };
@@ -48,14 +43,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		21198CA126B4D975000DE766 /* CollectionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionsViewController.swift; sourceTree = "<group>"; };
-		218806EB26BB9CBD0058B0AC /* UploadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadViewController.swift; sourceTree = "<group>"; };
-		218806EF26BC3C260058B0AC /* UploadCell1TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadCell1TableViewCell.swift; sourceTree = "<group>"; };
-		218806F126BC40EB0058B0AC /* UploadCell2TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadCell2TableViewCell.swift; sourceTree = "<group>"; };
-		218806F426BC419F0058B0AC /* UploadCell3TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadCell3TableViewCell.swift; sourceTree = "<group>"; };
-		218806F626BC42200058B0AC /* UploadCell4TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadCell4TableViewCell.swift; sourceTree = "<group>"; };
-		C285211226C458340038F97E /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
-		C285211426C4773C0038F97E /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		21B85E3426BD10ED001007DB /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TableViewController.swift; path = NeighborhoodHistory/TableViewController.swift; sourceTree = SOURCE_ROOT; };
+		21CF27CA26BF94290076FEA7 /* DateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DateViewController.swift; path = NeighborhoodHistory/DateViewController.swift; sourceTree = SOURCE_ROOT; };
+		21CF27CC26BFCEE70076FEA7 /* UploadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UploadViewController.swift; path = NeighborhoodHistory/UploadViewController.swift; sourceTree = SOURCE_ROOT; };
 		C2861D9C26B0525700A31ACD /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 		C29689D726BC5A7300E92198 /* ARViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewController.swift; sourceTree = "<group>"; };
 		C2A6749726AB334900537546 /* NeighborhoodHistory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NeighborhoodHistory.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -105,26 +95,24 @@
 		218806F326BC40F60058B0AC /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				21CF27CC26BFCEE70076FEA7 /* UploadViewController.swift */,
+				21CF27CA26BF94290076FEA7 /* DateViewController.swift */,
+				21B85E3426BD10ED001007DB /* TableViewController.swift */,
 				C2A6749E26AB334900537546 /* ViewController.swift */,
 				21198CA126B4D975000DE766 /* CollectionsViewController.swift */,
 				218806EB26BB9CBD0058B0AC /* UploadViewController.swift */,
 				C2E1995F26B9986700849D5F /* MapViewController.swift */,
 				C2E1996326B9B3A300849D5F /* ExpandedCardViewController.swift */,
-				218806F826BC4B7C0058B0AC /* TableViewCell */,
 				C29689D726BC5A7300E92198 /* ARViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
 		};
-		218806F826BC4B7C0058B0AC /* TableViewCell */ = {
+		21B85E3126BD0EC0001007DB /* TableView */ = {
 			isa = PBXGroup;
 			children = (
-				218806EF26BC3C260058B0AC /* UploadCell1TableViewCell.swift */,
-				218806F426BC419F0058B0AC /* UploadCell3TableViewCell.swift */,
-				218806F626BC42200058B0AC /* UploadCell4TableViewCell.swift */,
-				218806F126BC40EB0058B0AC /* UploadCell2TableViewCell.swift */,
 			);
-			path = TableViewCell;
+			path = TableView;
 			sourceTree = "<group>";
 		};
 		C2A6748E26AB334900537546 = {
@@ -157,6 +145,7 @@
 				C285211426C4773C0038F97E /* CoreDataStack.swift */,
 				C285211226C458340038F97E /* TabBarController.swift */,
 				C2E1996126B9A35500849D5F /* Location.swift */,
+				21B85E3126BD0EC0001007DB /* TableView */,
 				C2861D9B26B0525700A31ACD /* Model.xcdatamodeld */,
 				C2A674A326AB334B00537546 /* Assets.xcassets */,
 				C2A674A526AB334B00537546 /* LaunchScreen.storyboard */,
@@ -313,6 +302,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21CF27CB26BF94290076FEA7 /* DateViewController.swift in Sources */,
+				21CF27CD26BFCEE80076FEA7 /* UploadViewController.swift in Sources */,
 				C2A6749F26AB334900537546 /* ViewController.swift in Sources */,
 				C285211326C458340038F97E /* TabBarController.swift in Sources */,
 				C2E1996026B9986700849D5F /* MapViewController.swift in Sources */,
@@ -323,11 +314,9 @@
 				C285211526C4773C0038F97E /* CoreDataStack.swift in Sources */,
 				21198CA226B4D975000DE766 /* CollectionsViewController.swift in Sources */,
 				C29689D826BC5A7300E92198 /* ARViewController.swift in Sources */,
-				218806F226BC40EB0058B0AC /* UploadCell2TableViewCell.swift in Sources */,
-				218806F526BC419F0058B0AC /* UploadCell3TableViewCell.swift in Sources */,
 				C2A6749D26AB334900537546 /* SceneDelegate.swift in Sources */,
-				218806F726BC42200058B0AC /* UploadCell4TableViewCell.swift in Sources */,
 				C2861D9D26B0525700A31ACD /* Model.xcdatamodeld in Sources */,
+				21B85E3526BD10ED001007DB /* TableViewController.swift in Sources */,
 				C2E1996226B9A35500849D5F /* Location.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
